@@ -53,8 +53,27 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Initialize Flask App
 app = Flask(__name__)
-ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:3000").split(",")
-CORS(app, resources={r"/api/*": {"origins": ALLOWED_ORIGINS, "supports_credentials": True}})
+
+# Parse ALLOWED_ORIGINS safely: split by comma, strip whitespace, ignore empty entries
+# Default includes localhost for dev and Vercel domains for production
+_default_origins = "http://localhost:3000,https://cyber-sec-toolkit-pro.vercel.app,https://cybersec-toolkit-pro.vercel.app"
+_origins_str = os.getenv("ALLOWED_ORIGINS", _default_origins)
+ALLOWED_ORIGINS = [origin.strip() for origin in _origins_str.split(",") if origin.strip()]
+
+# Configure CORS with flask_cors if available
+try:
+    from flask_cors import CORS
+    CORS_AVAILABLE = True
+    # Use "*" if ALLOWED_ORIGINS is empty, otherwise use the list
+    _cors_origins = ALLOWED_ORIGINS if ALLOWED_ORIGINS else "*"
+    CORS(app, resources={r"/api/*": {"origins": _cors_origins, "supports_credentials": True}})
+    print(f"[CORS] Configured with flask_cors for origins: {_cors_origins}")
+except ImportError:
+    CORS_AVAILABLE = False
+    print("[CORS] Warning: flask_cors not available, using fallback CORS handlers")
+except Exception as e:
+    CORS_AVAILABLE = False
+    print(f"[CORS] Warning: flask_cors configuration failed: {e}, using fallback CORS handlers")
 
 # Security helpers
 RATE_LIMIT = int(os.getenv("API_RATE_LIMIT", "120"))
@@ -103,6 +122,40 @@ def sanitize_email_value(value):
 
 
 @app.before_request
+def handle_cors_preflight():
+    """Handle CORS preflight (OPTIONS) requests with fallback if flask_cors is unavailable."""
+    if not request.path.startswith("/api/"):
+        return None
+    
+    # Handle OPTIONS preflight requests
+    if request.method == "OPTIONS":
+        origin = request.headers.get("Origin", "")
+        
+        # Determine allowed origin: echo request origin if in ALLOWED_ORIGINS, otherwise use first allowed or "*"
+        if origin in ALLOWED_ORIGINS:
+            allow_origin = origin
+        elif ALLOWED_ORIGINS:
+            allow_origin = ALLOWED_ORIGINS[0]
+        else:
+            allow_origin = "*"
+        
+        # Build CORS headers
+        cors_headers = {
+            "Access-Control-Allow-Origin": allow_origin,
+            "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS, PATCH",
+            "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Requested-With",
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Max-Age": "3600",
+        }
+        
+        response = app.make_default_options_response()
+        response.headers.update(cors_headers)
+        return response
+    
+    return None
+
+
+@app.before_request
 def enforce_rate_limit():
     if not request.path.startswith("/api/"):
         return None
@@ -134,6 +187,8 @@ def enforce_rate_limit():
 
 @app.after_request
 def apply_security_headers(response):
+    """Apply security headers and merge CORS headers for /api/* routes."""
+    # Preserve existing security headers
     response.headers["Content-Security-Policy"] = (
         "default-src 'self'; "
         "img-src 'self' data:; "
@@ -146,6 +201,29 @@ def apply_security_headers(response):
     response.headers["Permissions-Policy"] = "geolocation=()"
     response.headers["X-Content-Type-Options"] = "nosniff"
     response.headers["X-Frame-Options"] = "DENY"
+    
+    # Add CORS headers for /api/* routes (merge with existing, don't overwrite)
+    if request.path.startswith("/api/"):
+        origin = request.headers.get("Origin", "")
+        
+        # Determine allowed origin: echo request origin if in ALLOWED_ORIGINS, otherwise use first allowed or "*"
+        if origin in ALLOWED_ORIGINS:
+            allow_origin = origin
+        elif ALLOWED_ORIGINS:
+            allow_origin = ALLOWED_ORIGINS[0]
+        else:
+            allow_origin = "*"
+        
+        # Merge CORS headers (don't overwrite if flask_cors already set them)
+        if "Access-Control-Allow-Origin" not in response.headers:
+            response.headers["Access-Control-Allow-Origin"] = allow_origin
+        if "Access-Control-Allow-Methods" not in response.headers:
+            response.headers["Access-Control-Allow-Methods"] = "GET, POST, PUT, DELETE, OPTIONS, PATCH"
+        if "Access-Control-Allow-Headers" not in response.headers:
+            response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization, X-Requested-With"
+        if "Access-Control-Allow-Credentials" not in response.headers:
+            response.headers["Access-Control-Allow-Credentials"] = "true"
+    
     return response
 
 # Secret key (for future JWT or sessions)
