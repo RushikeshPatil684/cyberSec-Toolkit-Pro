@@ -1,0 +1,1956 @@
+{
+  "subdomains_google.com": {
+    "timestamp": "2025-11-22T13:00:36.865846",
+    "data": {
+      "domain": "google.com",
+      "total_raw": 399,
+      "total_clean": 236,
+      "subdomains": [
+        {
+          "host": "*.apis.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.appengine.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.auth.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.bigstore-test.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.bigstore.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.blogger.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.blogspot.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.c.docs.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.c.pack.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.c.play.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.c.video.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache1.c.docs.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache1.c.play.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache1.c.video.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache2.c.docs.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache2.c.play.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache2.c.video.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache3.c.docs.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache3.c.play.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache3.c.video.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache4.c.docs.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache4.c.play.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache4.c.video.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache5.c.docs.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache5.c.play.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache5.c.video.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache6.c.docs.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache6.c.play.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache6.c.video.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache7.c.docs.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache7.c.play.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache7.c.video.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache8.c.docs.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache8.c.play.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cache8.c.video.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cag.ext.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.chrome.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.client-channel.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.clients.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.cloud.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.code.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.corp-backups.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.dasher-qa.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.dasher.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.demetrius-codespot.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.demetrius-googlecode.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.demetrius.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.devconsole-testers.sandbox.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.developer.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.developers.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.dfa7.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.docs-dev.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.docs-nightly.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.docs-platinum.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.docs-qa.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.docs.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.docs.sandbox.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.drive-test.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.drive.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.drive.sandbox.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.dthree.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.ext.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.focus.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.friendconnect.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.games.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.git.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.glass.ext.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.googlesource.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.ice.ext.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.jotspot-qa08.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.loop.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.mail.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.meeting.ext.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.orkut-fixprod.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.orkut-impersonation.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.orkut-ocdemo.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.orkut-qa.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.orkut-staging.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.orkut-uberproxy.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.orkut-vctask0.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.orkut-vcvrfy.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.orkut-yhtask0.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.orkut-yhvrfy.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.orkut-yqtask0.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.orkut-yqvrfy.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.oz-gmail.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.oz-s2.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.oz-www.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.photos.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.plus.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.plus.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.plusone.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.postini.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.profiles.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.prom-qa.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.prom-qa.sandbox.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.prom-test.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.prom-test.sandbox.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.prom.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.qa.adz.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sandbox.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.script.sandbox.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.search.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sites-googlegroups-nightly.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sites-googlegroups-qa01.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sites-googlegroups-qa02.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sites-googlegroups-qa03.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sites-googlegroups-qa04.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sites-googlegroups-qa05.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sites-googlegroups-qa06.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sites-googlegroups-qa07.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sites-googlegroups-qa08.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sites-googlegroups-tctest.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sites.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.sites.sandbox.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.spdy-proxy.ext.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.staging-a.blogger.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.staging-b.blogger.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.staging-c.blogger.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.staging-d.blogger.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.staging-daily.blogger.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.staging-daily.blogspot.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.staging-gaia.blogger.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.staging-git.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.staging-googlesource.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.staging-prod.blogger.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.staging-weekly.blogger.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.staging-weekly.blogspot.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.talkgadget.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.test.postini.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.upload.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.urchin.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.url.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.vp.video.l.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.webdrive-test-canary.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "*.webdrive-test-prod.corp.google.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "accounts.flexpack.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "accounts.freezone.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "accounts.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "ads-compare.eem.corp.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "adwords.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "alt1.aspmx.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "alt1.gmail-smtp-in.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "alt1.gmr-smtp-in.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "alt2.aspmx.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "alt2.gmail-smtp-in.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "alt2.gmr-smtp-in.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "alt3.aspmx.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "alt3.gmail-smtp-in.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "alt3.gmr-smtp-in.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "alt4.aspmx.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "alt4.gmail-smtp-in.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "alt4.gmr-smtp-in.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "answers.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "apps-secure-data-connector.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "aspmx.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "audioads.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "cag.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "cert-test.sandbox.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "checkout.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "cod.ext.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "da.ext.corp.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "da.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "dg.video.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "ecc-test.sandbox.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "eggroll.ext.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "flexpack.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "fra-da.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "freezone.accounts.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "freezone.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "freezone.m.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "freezone.mail.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "gaiastaging.flexpack.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "gaiastaging.freezone.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "glass-eur.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "glass-mtv.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "glass-twd.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "glass.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "gmail-smtp-in.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "gmail.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "gmr-smtp-in.l.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "hosted-id.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "hot-da.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "hyd-da.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "ice.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "ics.prod.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "jmt0.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "login.corp.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "m.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "m.guts.corp.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "m.gutsdev.corp.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "mail.flexpack.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "mail.freezone.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "mail.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "meeting.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "misc-sni.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "misc.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "mtalk.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "mtv-da-1.ad.corp.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "mtv-da.corp.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "mtv-da.ext.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "mx.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "mygeist.corp.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "mygeist2010.corp.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "news.freezone.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "onex.wifi.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "plus.flexpack.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "plus.freezone.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "proxyconfig.corp.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "qa.adz.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "reseed.corp.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "sandbox.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "search.flexpack.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "search.freezone.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "services.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "soaproxyprod01.ext.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "soaproxytest01.ext.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "spdy-proxy-debug.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "spdy-proxy.ext.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "talk.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "twd-da.ext.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "twdsalesgsa.twd.corp.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "uberproxy-nocert.corp.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "uberproxy-san.corp.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "uberproxy.corp.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "upload.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "upload.video.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "vp.video.l.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "wifi.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "www.flexpack.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "www.freezone.google.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "www.google.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        }
+      ]
+    }
+  },
+  "subdomains_hackerone.com": {
+    "timestamp": "2025-11-22T13:11:38.544429",
+    "data": {
+      "domain": "hackerone.com",
+      "total_raw": 16,
+      "total_clean": 16,
+      "subdomains": [
+        {
+          "host": "*.hackerone.com",
+          "wildcard": true,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "api.hackerone.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "design.hackerone.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "docs.hackerone.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "events.hackerone.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "go.hackerone.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "gslink.hackerone.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "hackerone.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "info.hackerone.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "links.hackerone.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "mta-sts.forwarding.hackerone.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "mta-sts.hackerone.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "mta-sts.managed.hackerone.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "support.hackerone.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "CNAME"
+          ],
+          "confidence": "high"
+        },
+        {
+          "host": "websockets.hackerone.com",
+          "wildcard": false,
+          "resolves": false,
+          "records": [],
+          "confidence": "medium"
+        },
+        {
+          "host": "www.hackerone.com",
+          "wildcard": false,
+          "resolves": true,
+          "records": [
+            "A",
+            "AAAA"
+          ],
+          "confidence": "high"
+        }
+      ]
+    }
+  }
+}

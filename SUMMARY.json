@@ -1,0 +1,48 @@
+{
+  "files_created": [
+    "frontend/src/utils/normalizeToolResults.js",
+    "frontend/src/components/ToolResultCard.jsx",
+    "frontend/src/utils/cache.js",
+    "backend/utils/normalizers.py",
+    "backend/cache/ip_cache.json",
+    "backend/cache/whois_cache.json",
+    "backend/cache/cve_snippets.json",
+    "tests/tool_smoke_test.py"
+  ],
+  "files_modified": [
+    "frontend/src/pages/Home.jsx",
+    "frontend/src/pages/tools/IPInfo.jsx",
+    "frontend/src/pages/tools/WHOIS.jsx",
+    "frontend/src/pages/tools/SSL.jsx",
+    "frontend/src/pages/tools/Subdomain.jsx",
+    "frontend/src/pages/tools/PasswordChecker.jsx",
+    "frontend/src/utils/passwordMetrics.js",
+    "frontend/src/App.js",
+    "backend/app.py",
+    "README.md"
+  ],
+  "testing_steps": [
+    "1. Start backend: cd backend && python app.py",
+    "2. Start frontend: cd frontend && npm start",
+    "3. Navigate to http://localhost:3000",
+    "4. Verify IP-checker demo is removed from Home page",
+    "5. Test IP Info tool: Enter 8.8.8.8, verify normalized fields (ip, org, city, country, normalized)",
+    "6. Test WHOIS tool: Enter example.com, verify normalized fields (domain, registrar, creation_date, nameservers, normalized)",
+    "7. Test SSL tool: Enter google.com, verify normalized fields (domain, valid, issuer, days_remaining, normalized)",
+    "8. Test Subdomain tool: Enter example.com, verify validated subdomains and deduplication",
+    "9. Test Password Checker: Generate password and passphrase, verify enhanced suggestions",
+    "10. Test caching: Run same query twice, verify second call is instant (check console for cache hits)",
+    "11. Test enrichment: Check browser console for enrichment API calls (may return 404 if cache empty)",
+    "12. Test save report: Run any tool, click 'Save Report', verify toast and console log",
+    "13. Run smoke test: cd tests && python tool_smoke_test.py"
+  ],
+  "warnings": [
+    "Enrichment endpoints return 404 if cache files are empty (expected behavior)",
+    "SSL checker requires 'cryptography' package for full SAN extraction (optional, falls back gracefully)",
+    "CVE cache file (cve_snippets.json) contains example data only; populate with real CVE data for production",
+    "Password checker does NOT send passwords to backend (all processing is client-side only)",
+    "Some tools use ToolTemplate component which may need normalization updates separately"
+  ],
+  "reference_file_used": "/mnt/data/rebuild_dashboard_prompt.txt"
+}
+

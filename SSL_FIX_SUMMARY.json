@@ -1,0 +1,56 @@
+{
+  "files_modified": [
+    "backend/requirements.txt",
+    "backend/app.py",
+    "frontend/src/pages/tools/SslCheck.jsx",
+    "frontend/src/App.js",
+    "README.md"
+  ],
+  "files_added": [
+    "backend/tests/test_ssl_check.py"
+  ],
+  "endpoint": "/api/ssl/check",
+  "manual_test_checklist": [
+    "1. expired.badssl.com",
+    "   - Expected: valid=false, days_remaining <= 0",
+    "   - Test: curl -X POST http://localhost:5000/api/ssl/check -H 'Content-Type: application/json' -d '{\"host\":\"expired.badssl.com\"}'",
+    "   - Frontend: Navigate to /tools/ssl, enter 'expired.badssl.com', verify red 'Expired' badge",
+    "",
+    "2. google.com",
+    "   - Expected: valid=true, days_remaining > 30",
+    "   - Test: curl -X POST http://localhost:5000/api/ssl/check -H 'Content-Type: application/json' -d '{\"host\":\"google.com\"}'",
+    "   - Frontend: Enter 'google.com', verify green 'Valid' badge and days remaining > 30",
+    "",
+    "3. invalid.host",
+    "   - Expected: 400 error or friendly DNS error",
+    "   - Test: curl -X POST http://localhost:5000/api/ssl/check -H 'Content-Type: application/json' -d '{\"host\":\"invalid.host\"}'",
+    "   - Frontend: Enter invalid host, verify error message",
+    "",
+    "4. Custom port (if available)",
+    "   - Expected: Connect to non-standard port",
+    "   - Test: curl -X POST http://localhost:5000/api/ssl/check -H 'Content-Type: application/json' -d '{\"host\":\"example.com\",\"port\":8443}'",
+    "   - Frontend: Enter 'example.com:8443', verify connection to custom port",
+    "",
+    "5. Frontend UI Features",
+    "   - Test 'Test cert' button (dev mode only) - should auto-fill expired.badssl.com",
+    "   - Verify error messages for invalid hosts (504 timeout, 422 parsing, 400 validation)",
+    "   - Check raw JSON toggle functionality",
+    "   - Test export JSON button",
+    "   - Test save report functionality",
+    "   - Verify SAN list displays as chips",
+    "   - Check days remaining color coding (red <=0, amber <30, green >=30)",
+    "",
+    "6. Chain Validation (if SSL_VALIDATE_CHAINS=true)",
+    "   - Set SSL_VALIDATE_CHAINS=true in backend .env",
+    "   - Test with valid certificate - chain_valid should be true",
+    "   - Test with self-signed certificate - chain_valid should be false"
+  ],
+  "warnings": [
+    "cryptography package is required for full SSL parsing. Install with: pip install cryptography",
+    "If cryptography is not available, SSL checker will return limited functionality with errors array",
+    "Chain validation requires SSL_VALIDATE_CHAINS=true in backend .env (defaults to false)",
+    "6-second timeout is enforced for all connections",
+    "10-minute in-memory cache is used for repeated checks (cleared when cache exceeds 100 entries)"
+  ]
+}
+

@@ -1,0 +1,14 @@
+{
+  "example": [
+    {
+      "cve_id": "CVE-2021-44228",
+      "summary": "Apache Log4j2 JNDI features do not protect against attacker controlled LDAP and other JNDI related endpoints",
+      "published_date": "2021-12-10T20:15:00.000Z",
+      "last_modified": "2021-12-14T15:00:00.000Z",
+      "cvss_v3_score": 10.0,
+      "severity": "Critical",
+      "references": [],
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44228"
+    }
+  ]
+}
