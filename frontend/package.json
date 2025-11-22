@@ -25,7 +25,6 @@
     "react-window": "^1.8.10",
     "recharts": "^3.3.0",
     "zxcvbn": "^4.4.2"
-    "react-scripts": "5.0.1",
   },
   "devDependencies": {
     "@playwright/test": "^1.56.1",
